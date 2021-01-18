@@ -1,0 +1,34 @@
+.rolam-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.about {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(58, 56, 56);
+}
+
+.image {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.me-image {
+    max-width: 20%;
+    margin: 3rem 0;
+    border-radius: 10px;
+}
+
+.rolam-text {
+    font-family: "Mulish", sans-serif;
+}

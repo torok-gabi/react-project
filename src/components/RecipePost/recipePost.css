@@ -1,0 +1,70 @@
+.recipePost {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    min-height: 70vh;
+    margin: 2rem auto;
+    font-size: .9rem;
+    background-color: antiquewhite;
+    border-radius: .5rem;
+    box-shadow: 0px 5px 20px black;
+}
+
+.containt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.title {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.ingredient-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredient-item {
+    list-style: none;
+    font-family: "Mulish", sans-serif;
+}
+
+.calorie {
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+}
+
+.recipePost-image {
+    max-width: 50%;
+    margin: 1rem auto
+}
+
+@media only screen and (min-width: 768px) {
+    .recipePost {
+        width: 60%;
+        min-height: 100vh;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .recipePost {
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .recipePost {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
